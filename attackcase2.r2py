@@ -1,7 +1,0 @@
-if "abfile.txt.a" in listfiles():
-  removefile("abfile.txt.a")
-if "abfile.txt.b" in listfiles():
-  removefile("abfile.txt.b")
-
-myfile = ABopenfile("abfile.txt", False)
-myfile.close()
